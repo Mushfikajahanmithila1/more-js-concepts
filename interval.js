@@ -8,9 +8,9 @@ console.log(5);
 console.log(6);
 console.log(7);
 
+let num = 0;
 setInterval(() => {
-  const num = 0;
-  if (num > 20) {
+  if (num >= 20) {
     clearInterval();
   }
   num += 1;
